@@ -1,0 +1,73 @@
+# =========================
+# Secrets and Credentials
+# =========================
+
+.env
+.env.*
+!.env.example
+
+*.pem
+*.key
+*.ppk
+credentials
+credentials.*
+.aws/
+.ssh/
+
+# =========================
+# Operating System Files
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+
+# =========================
+# Editors and IDEs
+# =========================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# =========================
+# Logs and Temporary Files
+# =========================
+
+*.log
+logs/
+tmp/
+temp/
+
+# =========================
+# Terraform (Future Use)
+# =========================
+
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform lock file should normally be committed
+# when Terraform is introduced to this project.
+# Do not ignore .terraform.lock.hcl by default.
+
+# =========================
+# Generated Archives
+# =========================
+
+*.zip
+*.tar
+*.tar.gz
+*.tgz
